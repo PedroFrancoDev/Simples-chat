@@ -1,0 +1,466 @@
+html, body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #658FFF;
+    font-family: "Helvetica Neue", "Helvetica", arial, sans-serif;
+    text-rendering: optimizelegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+body section#conteiner-geral {
+    background: #FFFFFF;
+    height: 600px;
+    width: 90%;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Configurando o conteiner-1*/
+
+body section#conteiner-geral header.conteiner-1 {
+    background: #f9f9f9;
+    height: 100%;
+    width: 26%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 15px;
+}
+
+section#conteiner-geral header.conteiner-1 aside {
+    display: flex;
+    align-items: center;
+}
+
+
+section#conteiner-geral header.conteiner-1 aside div.avatar img {
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+section#conteiner-geral header.conteiner-1 aside ul {
+    list-style: none;
+}
+
+section#conteiner-geral header.conteiner-1 aside ul li span {
+    color: #4160CA;
+    font-weight: bold;
+}
+
+section#conteiner-geral header.conteiner-1 aside ul li strong {
+    color: #B0B0B0;
+    font-size: 12px;
+}
+
+section#conteiner-geral header.conteiner-1 aside div.lapis img {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+/*Formatando o 1º input*/
+
+section#conteiner-geral header.conteiner-1 header form input {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    outline: none;
+    padding: 0 20px;
+    border: none;
+    border-radius: 20px;
+    height: 25px;
+}
+
+/*Configurando amigos*/
+
+section#conteiner-geral header.conteiner-1 header.amigos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 15px;
+}
+
+section#conteiner-geral header.conteiner-1 header.amigos ul img {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+section#conteiner-geral header.conteiner-1 header.amigos div.lazaro img {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+section#conteiner-geral header.conteiner-1 header.amigos ul {
+    list-style: none;
+    display: flex;
+}
+
+section#conteiner-geral header.conteiner-1 header.amigos ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+section#conteiner-geral header.conteiner-1 header.amigos ul li span {
+    color: #4160CA;
+    font-weight: bold;
+}
+
+section#conteiner-geral header.conteiner-1 header.amigos ul li strong {
+    color: #B0B0B0;
+    font-size: 12px;
+}
+
+section#conteiner-geral header.conteiner-1 header.amigos div.tempo{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+section#conteiner-geral header.conteiner-1 header.amigos p {
+    font-size: 10px;
+}
+
+section#conteiner-geral header.conteiner-1 header.amigos div.tempo ul {
+    display: flex;
+    justify-content: flex-end;
+
+    margin-top: 5px;
+}
+
+section#conteiner-geral header.conteiner-1 header.amigos div.tempo ul li {
+    list-style: none;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: #65A830;
+}
+
+/*Configurando o conteiner-2*/
+
+section#conteiner-geral header.conteiner-2 {
+    background: #FEFEFE;
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+    padding-top: 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+section#conteiner-geral header.conteiner-2  aside {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+    border-bottom: 1px solid #D3D3D3;
+
+}
+
+section#conteiner-geral header.conteiner-2 aside div.usuario div img {
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+    margin-right: 10px;
+}
+
+section#conteiner-geral header.conteiner-2 aside div.usuario {
+    display: flex;
+    align-items: center;
+}
+
+section#conteiner-geral header.conteiner-2 aside div.usuario ul p {
+    font-weight: bold;
+    color: #6B6B6B;
+}
+
+section#conteiner-geral header.conteiner-2 aside div.usuario ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+section#conteiner-geral header.conteiner-2 aside div.usuario ul li {
+    height: 8px;
+    width: 8px;
+    background: #65A830;
+    border-radius: 50%;
+    margin: 8px;
+}
+
+
+
+/*Conversa... Continer-2*/
+
+section#conteiner-geral header.conversa {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+/*Usuario 1*/
+
+section#conteiner-geral header.conversa header.usuario-1 ul {
+    list-style: none;
+}
+
+section#conteiner-geral header.conversa header.usuario-1 ul li {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 90px;
+}
+
+section#conteiner-geral header.conversa header.usuario-1 ul li img {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin-right: 4px;
+}
+
+section#conteiner-geral header.conversa header.usuario-1 ul li p{
+    background: #F9F9F9;
+    padding: 8px;
+    border-end-end-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #444343;
+}
+
+/*Usuario 2*/
+
+section#conteiner-geral header.conversa header.usuario-2 ul {
+    list-style: none;
+}
+
+section#conteiner-geral header.conversa header.usuario-2 ul li {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: flex-end;
+}
+
+section#conteiner-geral header.conversa header.usuario-2 ul li img {
+     border-radius: 50%;
+     height: 20px;
+     width: 20px;
+     margin-left: 4px;
+}
+
+section#conteiner-geral header.conversa header.usuario-2 ul li p {
+    color: #fff;
+    background: #467AFF;
+    padding: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/*Formulario*/
+
+section#conteiner-geral header.conteiner-2 form {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+section#conteiner-geral header.conteiner-2 form input {
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    width: 97%;
+    background: #eeeeee;
+}
+
+/*Configurando o conteiner-3*/
+
+section#conteiner-geral header.conteiner-3 {
+    height: 100%;
+    width: 26%;
+    background: #f9f9f9;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 15px;
+}
+
+section#conteiner-geral header.conteiner-3 form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+section#conteiner-geral header.conteiner-3 form input {
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    height: 25px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+section#conteiner-geral header.conteiner-3 header.usuario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#conteiner-geral header.conteiner-3 header.usuario img {
+    border-radius: 50%;
+    height: 70px;
+    width: 25%;
+    margin-top: 20px;
+}
+
+section#conteiner-geral header.conteiner-3 header.usuario h2 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #3f3f3f;
+}
+
+section#conteiner-geral header.conteiner-3 header.usuario p {
+    color: #3f3f3f;
+    font-size: 15px;
+}
+
+section#conteiner-geral header.conteiner-3 header.chat-videu {
+    display: flex;
+    justify-content: center;
+}
+
+section#conteiner-geral header.conteiner-3 header.chat-videu ul {
+    list-style: none;
+    margin: 20px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#conteiner-geral header.conteiner-3 header.chat-videu ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #E6EBFF;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+}
+
+section#conteiner-geral header.conteiner-3 header.chat-videu ul li img {
+    height: 20px;
+    width: 20px;
+}
+
+section#conteiner-geral header.conteiner-3 header.chat-videu ul p {
+    color:  #3f3f3f;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+section#conteiner-geral header.conteiner-3 header.chat-videu div.border-right {
+    border-right: 1px solid rgb(201, 200, 200);
+    margin: 15px;
+}
+
+section#conteiner-geral header.conteiner-3 div.icon ul {
+    list-style: none;
+}
+
+section#conteiner-geral header.conteiner-3 div.icon ul li {
+    display: flex;
+    margin-top: 13px;
+}
+
+section#conteiner-geral header.conteiner-3 div.icon ul li img {
+    margin-right: 5px;
+}
+
+section#conteiner-geral header.conteiner-3 div.icon ul li p {
+    font-size: 13px;
+    color: #3f3f3f;
+}
+
+/*Caixas*/
+
+section#conteiner-geral header.conteiner-3 div.icon div.caixas {
+    margin-top: 20px;
+}
+
+section#conteiner-geral header.conteiner-3 div.icon div.caixas h3 {
+    color: #3f3f3f;
+    font-size: 15px;
+}
+
+section#conteiner-geral header.conteiner-3 div.icon div.caixas ul {
+    display: flex;
+    justify-content: center;
+
+    list-style: none;
+}
+
+section#conteiner-geral header.conteiner-3 div.icon div.caixas ul li {
+    height: 50px;
+    width: 50px;
+    border-radius: 3px;
+    background: #E7EDFF;
+
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#conteiner-geral header.conteiner-3 div.icon div.caixas ul li:first-child {
+    margin-left: 0;
+}
+
+section#conteiner-geral header.conteiner-3 div.icon div.caixas div.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+section#conteiner-geral header.conteiner-3 div.icon div.caixas div.button button {
+    height: 20px;
+    padding: 0 20px;
+    border-radius: 10px;
+    border: 2px solid #CFD3DE;
+    font-weight: bold;
+    background: #F2F9FE;
+}
